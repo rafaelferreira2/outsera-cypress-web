@@ -14,7 +14,7 @@ Repositório de teste técnico Outsera
 ## Execução via Github Actions
 
 1. Realizar o fork do repositório
-2. Acessar o workflow de execução em outsera-cypress-web/actions/workflows/main.yml
+2. Acessar o workflow de execução em outsera-web-cypress/actions/workflows/main.yml
 3. Clicar no botão 'Run workflow' e confirmar a execução com a branch main
 4. Será apresentado na listagem abaixo o workflow em execução
 5. Ao finalizar em caso de sucesso, apresentará o workflow com ícone verde
