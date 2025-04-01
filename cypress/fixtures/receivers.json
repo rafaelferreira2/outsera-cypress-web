@@ -1,0 +1,27 @@
+{
+  "valid_receiver": {
+    "first_name": "User",
+    "last_name": "Valid",
+    "postal_code": "123123"
+  },
+  "empty_first_name": {
+    "first_name": "",
+    "last_name": "Last",
+    "postal_code": "123123"
+  },
+  "empty_last_name": {
+    "first_name": "User",
+    "last_name": "",
+    "postal_code": "123123"
+  },
+  "empty_postal_code": {
+    "first_name": "standard_user",
+    "last_name": "secret_sauce",
+    "postal_code": ""
+  },
+  "empty_all_fields": {
+    "first_name": "",
+    "last_name": "",
+    "postal_code": ""
+  }
+}
