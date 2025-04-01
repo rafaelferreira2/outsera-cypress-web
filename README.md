@@ -25,18 +25,19 @@ Repositório de teste técnico Outsera
    
 
 ## Execução local
-
 1. Clonar o repositório, instalar as dependências via terminal na raiz do projeto
 ```
 yarn install / npm install
 ```
 
-2. Para acompanhar a execução dos testes via interface gráfica, execute o comando abaixo e selecione a suite desejada
+2. Executar todos os testes em Headless, relatório gerado na pasta 'cypress/report'
+```
+yarn cypress run / npx cypress run 
+```
+
+3. Para acompanhar a execução dos testes via interface gráfica, execute o comando abaixo e selecione a suite desejada
 ```
 yarn cypress open / npx cypress open 
 ```
 
-3. Executar todos os testes em Headless
-```
-yarn cypress run / npx cypress run 
-```
+
