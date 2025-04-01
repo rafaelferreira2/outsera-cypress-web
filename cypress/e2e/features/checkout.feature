@@ -1,14 +1,15 @@
 Feature: Checkout
 
-  Scenario: Checkout one product
+  Background: With product on cart
     Given Im logged with "backpack" on cart
+
+  Scenario: Checkout one product
     When i fill with "valid_receiver" receiver step one
     And validate checkout step two with "backpack"
     And validate payment information "backpack"
     Then I see order confirmed
 
   Scenario: Checkout error receiver
-    Given Im logged with "backpack" on cart
     When i fill with "<errorType>" receiver step one
     Then I alert error "<errorType>"
 
